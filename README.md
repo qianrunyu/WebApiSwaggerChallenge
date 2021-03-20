@@ -1,6 +1,7 @@
 This solution contains 2 projects: WebApiWithSwagger (.net core 2.1) and WebApiWithSwagger.test (Xunit tests)
 
 --> Docker image url: https://hub.docker.com/repository/docker/qianrunyu/codechallenge
+
 					  docker pull qianrunyu/codechallenge:firsttry
 
 http://localhost:[docker port]/swagger will be the local url to run the app.
