@@ -20,7 +20,9 @@ http://localhost:[docker port]/swagger will be the local url to run the app.
 
 
 --> Project APIs explaination:
+
 *** All APIs must provide a dealer code to query/update stock. There are 2 pre-defined dealerCode in seeding database: A01 and B02. You can create new dealer code by using AddCar API ***
+
 *** Car is defined as DealerCode + Make + Model + Year and car stock is associated with it. For example "A01, Audi, A7, 2020, 5" means dealer A01 has 5 Audi A7 made in 2020 ***
 
 1, GET /api/cars/{dealercode}
