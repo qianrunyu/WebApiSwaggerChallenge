@@ -19,6 +19,7 @@ http://localhost:[docker port]/swagger will be the local url to run the app.
 
 
 
+
 --> Project APIs explaination:
 
 *** All APIs must provide a dealer code to query/update stock. There are 2 pre-defined dealerCode in seeding database: A01 and B02. You can create new dealer code by using AddCar API ***
@@ -59,6 +60,7 @@ will return
   "stockLevel": 100
 }
 If stockId or DealerCode is not found, a bad request response will return.
+
 
 
 --> Some tips:
